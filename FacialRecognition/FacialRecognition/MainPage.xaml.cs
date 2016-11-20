@@ -13,5 +13,38 @@ namespace FacialRecognition
         {
             InitializeComponent();
         }
+
+
+        /// <summary>
+        /// The take picture button_ on clicked.
+        /// </summary>
+        /// <param name="sender">
+        /// The sender.
+        /// </param>
+        /// <param name="e">
+        /// The e.
+        /// </param>
+        /// <exception cref="NotImplementedException">
+        /// </exception>
+        private void TakePictureButton_OnClicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// The upload picture button_ on clicked picture button_ on clicked.
+        /// </summary>
+        /// <param name="sender">
+        /// The sender.
+        /// </param>
+        /// <param name="e">
+        /// The e.
+        /// </param>
+        /// <exception cref="NotImplementedException">
+        /// </exception>
+        private void UploadPictureButton_OnClickedPictureButton_OnClicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

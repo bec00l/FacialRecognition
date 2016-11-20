@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FacialRecognition
 {
-    public class FacialEmotionDetection
+    public class FaceEmotionDetection
     {
         public string Emotion { get; set; }
         public double Smile { get; set; }

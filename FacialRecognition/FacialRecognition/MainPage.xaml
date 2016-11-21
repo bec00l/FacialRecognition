@@ -5,12 +5,8 @@
              x:Class="FacialRecognition.MainPage">
 
     <StackLayout Orientation="Vertical">
-        <Button x:Name="TakePictureButton" Clicked="TakePictureButton_OnClicked" Text="Camera" />
-        <Button x:Name="UploadPictureButton" Clicked="UploadPictureButton_OnClickedPictureButton_OnClicked"
-                Text="Upload" />
-
         <ActivityIndicator x:Name="Indicator1" IsVisible="False" IsRunning="False" />
-        <Image x:Name="Image1" HeightRequest="240" />
+        <Image HorizontalOptions="Center" x:Name="Image1" HeightRequest="300" />
         <StackLayout Orientation="Horizontal" Padding="3">
             <Label Text="Gender: " />
             <Label x:Name="GenderLabel" Text="{Binding Path=Gender}" />
@@ -39,6 +35,10 @@
             <Label Text="Moustache: " />
             <Label x:Name="MoustacheLabel" Text="{Binding Path=Moustache}" />
         </StackLayout>
+
+        <Button x:Name="TakePictureButton" Clicked="TakePictureButton_OnClicked" Text="Camera" />
+        <Button x:Name="UploadPictureButton" Clicked="UploadPictureButton_OnClickedPictureButton_OnClicked"
+                Text="Upload" />
     </StackLayout>
 
 </ContentPage>
